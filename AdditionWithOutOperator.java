@@ -5,7 +5,9 @@ public class AdditionWithOutOperator
 
 public static void main(String args[])
 	{
-		int a=4,b=3;
+		Scanner sc=new Scanner(System.in);
+	int a=Integer.parseInt(sc.next());
+	int b=Integer.parseInt(sc.next());
 		while(b!=0)
 		{
 		  int c=(a&b);
